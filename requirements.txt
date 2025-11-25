@@ -1,0 +1,9 @@
+
+#### `requirements.txt`
+```txt
+torch>=2.3.0
+torchvision
+opencv-python
+ultralytics
+numpy
+pyttsx3
