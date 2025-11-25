@@ -1,0 +1,1 @@
+model = YOLO("model/yolov8n-football.pt")
