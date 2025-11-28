@@ -2,9 +2,6 @@ from ultralytics import YOLO
 
 # Cargar modelo base (nano = ligero, ideal para celular)
 model = YOLO("yolov8n.pt")  # Descarga automática la primera vez
-
-# Entrenar con tu dataset personalizado
-# Tu dataset debe tener la estructura: datasets/football/
 model.train(
     data="datasets/football/data.yaml",  # archivo de configuración
     epochs=80,
