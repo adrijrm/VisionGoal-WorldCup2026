@@ -1,7 +1,3 @@
-# model/train.py
-# Script de entrenamiento del modelo YOLOv8 para fútbol
-# Ejecutado por: [Tu nombre] - LIS4042 Fall 2025
-
 from ultralytics import YOLO
 
 # Cargar modelo base (nano = ligero, ideal para celular)
