@@ -20,5 +20,5 @@ model.train(
 )
 
 # Exportar a formato ligero para celular
-model.export(format="torchscript")  # o "onnx" si prefieres
+model.export(format="torchscript")  # o "onnx"
 print("Modelo entrenado y exportado: best.pt → yolov8n-football.pt")
